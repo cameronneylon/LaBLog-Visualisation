@@ -27,7 +27,7 @@ dumplist = []
 
 for post in root.getiterator('post'):
     postdict = {}
-    postdict['title'] = post.find('title').text
+    postdict['title'] = '"' + post.find('title').text + '"'
     postdict['id'] = post.find('id').text
     postdict['section'] = post.find('section').text
     postdict['author'] = post.find('author').text
