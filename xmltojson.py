@@ -27,6 +27,7 @@ dumplist = []
 
 for post in root.getiterator('post'):
     postdict = {}
+    # TODO Remove commas from titles
     postdict['title'] = '"' + post.find('title').text + '"'
     postdict['id'] = post.find('id').text
     postdict['section'] = post.find('section').text
@@ -42,8 +43,16 @@ for post in root.getiterator('post'):
     for link in bloglinkslist:
         # For each link grab the ID and append to list of links
         postdict['internal-links'].append(link.group(2))
+
+    postdict['data-links'] = []
+    if post.find('attached_data'):
+        datalinkslist = post.find('attached_data').getiterator('data')
+        for data in datalinkslist:
+            # For each data link grab the data ID
+            postdict['data-links'].append(data.text.split('/')[-1].rstrip('.xml'))
         
     # postdict['permalink'] = post.find('permalink').text
+
 
     dumplist.append(postdict)
 
@@ -53,22 +62,28 @@ f.close
 f2 = open(guessfile, 'w')
 
 #label is a reserved word used to display node labels
-f2.write('nodedef> name, label STRING, section VARCHAR\n')
+f2.write('nodedef> name, label STRING, section VARCHAR, date STRING \n')
 
 nodelist = ''
 nodetrack = []
 edgelist = ''
 
 for post in dumplist:
-    nodelist += ('id' + post['id'] +',' + post['title'] + ','
-                    + post['section'] + '\n')
+    nodelist += ('post' + post['id'] +',' + post['title'] + ','
+                    + post['section'] + ',' + post['datestamp'] + '\n')
     nodetrack.append(post['id'])
 
 for post in dumplist:
     for link in post['internal-links']:
-        edgelist += 'id' + post['id'] + ',id' + link + '\n'
+        edgelist += 'post' + post['id'] + ',post' + link + '\n'
         if nodetrack.count(link) == 0:
             nodelist += 'id' + link +',external,unknown\n'
+            nodetrack.append(link)
+    for data in post['data-links']:
+        edgelist += 'post' + post['id'] + ',data' + data +'\n'
+        if nodetrack.count('data' + data) == 0:
+            nodelist += 'data' + data + ',dataobject,DataObject\n'
+            nodetrack.append('data' + data)
     
 f2.write(nodelist)
 f2.write('edgedef>node1,node2\n')

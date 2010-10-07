@@ -1,887 +1,1184 @@
-nodedef> name, label STRING, section VARCHAR
-id75,Lab SAXS Template,Templates
-id81,GFP solution 5 mg/ml,Materials
-id82,GFP solution 2 mg/ml,Materials
-id83,GFP solution 1 mg/ml,Materials
-id79,Preparation of GFP solutions,Procedures
-id86,Centrifuged 10 mg/mL GFP,Materials
-id87,Centrifuged 2 mg/mL GFP,Materials
-id88,Centrifuged 5 mg/mL GFP,Materials
-id110,SAXS Run 02075,Data
-id108,SAXS Run 02074,Data
-id97,SAXS Run 02073,Data
-id96,SAXS Run 02072,Data
-id95,SAXS Run 02071,Data
-id94,SAXS Run 02070,Data
-id93,SAXS Run 02069,Data
-id92,SAXS Run 02068,Data
-id91,SAXS Run 02067,Data
-id123,GFP SAXS data reduction,Procedures
-id85,Centrifugation of 10 mg/mL GFP solution,Procedures
-id131,GFP (10 mg/mL) in D2O buffer,Materials
-id132,GFP 5 mg/mL in D2O buffer,Materials
-id133,GFP 2 mg/mL in D2O buffer,Materials
-id130,Preparation of GFP Samples for a quickie SANS experiment on LOQ,Procedures
-id135,Lysozyme,Materials
-id137,Lysozyme 10 mg/mL in D2O buffer,Materials
-id138,Lysozyme 2mg/mL,Materials
-id136,Preparation of lysozyme solutions for quickie SANS experiment,Procedures
-id141,20 mM Phosphate buffer in D2O,Materials
-id171,UV-Vis spectroscopy of GFP and Lysozyme samples,Procedures
-id90,LOQ SANS data template,Templates
-id174,44700 - 10mg/mL GFP on LOQ,Data
-id178,44701 - 5mg/mL GFP on LOQ,Data
-id182,44702 - 2mg/mL GFP on LOQ,Data
-id186,44703 - 10mg/mL Lysozyme on LOQ,Data
-id190,44704 - 2mg/mL Lysozyme on LOQ,Data
-id195,Initial analysis of SANS data on GFP,Procedures
-id156,UV-Vis spectrum of 2 mg/mL Lysozyme,Data
-id153,UV-Vis spectrum of 10mg/mL Lysozyme,Data
-id150,UV-Vis spectrum of 2mg/mL GFP,Data
-id147,UV-Vis spectrum of 5mg/mL GFP,Data
-id144,UV-Vis spectrum of 10mg/mL GFP,Data
-id142,SANS on GFP concentration series,Procedures
-id109,SAXS of GFP Samples,Procedures
-id210,oligo template,Templates
-id231,Planning preparation of DNA for Laser Tweezers experiment,Note
-id240,Ethanol precipitated lambda DNA,Materials
-id263,Phosphorylated TerR lam,Materials
-id264,Phosporylated TerR,Materials
-id265,Phosphorylated TerFlam,Materials
-id269,Phosphorylated oligo-lambda-biotin,Materials
-id275,Product of ligation of lambda to lambda-oligo-biotin,Materials
-id262,Phosphorylated lambda DNA,Materials
-id273,Ligation of oligo-biotin-lambda to lambda DNA,Procedures
-id266,Phosphorylated TerF,Materials
-id224,Oligo-lambda-biotin,Materials
-id221,Oligo-TerRlam,Materials
-id218,Oligo-TerR,Materials
-id214,Oligo-TerFlam,Materials
-id211,Oligo-TerF,Materials
-id76,Sortase Buffer,Materials
-id78,GFP solution 10 mg/mL,Materials
-id77,Freeze dried GFP,Materials
-id287,1:100 gly-OH modified silica beads,Materials
-id288,1:1000 gly-OH modified silica beads,Materials
-id289,1:10000 gly-OH modified silica beads,Materials
-id290,1:100000 gly-OH modified silica beads,Materials
-id295,TerF-lambda-biotin construct,Materials
-id294,Ligation of Tus adaptors to biotin-modified lambda,Procedures
-id300,1:100 gly-oh beads after ammonia treatment,Materials
-id301,1:1000 gly-OH beads after ammonia treatment,Materials
-id302,1:10000 gly-OH beads after ammonia treatment,Materials
-id303,1:100,000 gly-OH beads after ammonia treatment,Materials
-id291,Ammonia treatment of gly modified beads,Procedures
-id305,Maria's analysis of the GFP SAXS data,Procedures
-id298,TerR-lambda-biotin construct,Materials
-id352,Bangs Labs streptavidin coated beads,Materials
-id375,Preparing fresh polymer-DNA beads for lasers experiment,Procedures
-id379,Examining silica beads for stickiness to surface,Note
-id387,Octameric rck domain from MthK in D2O buffer,Materials
-id140,SANS on LOQ template,Templates
-id394,SANS on LOQ template,Procedures
-id402,SANS runs on octameric RCK,Procedures
-id405,Additional runs on octameric Rck,Procedures
-id409,Octameric RCK plus Ca,Materials
-id410,Buffer background for octameric RCK plus Ca,Materials
-id408,Addition of Ca++ to octameric mthk sample,Procedures
-id417,Dimeric RCK from gel filtration in pD 6.5 D2O buffer,Materials
-id418,Buffer background for dimeric RCK,Materials
-id419,SANS of dimeric RCK,Procedures
-id412,SANS of octameric RCK plus Ca++,Procedures
-id426,Octameric RCK plus Ca dialysed into pD6.5,Materials
-id427,Octameric RCK plus (no Ca) dialysed into pD 6.5 buffer,Materials
-id425,Dialysis of Octameric RCK samples,Procedures
-id432,20 mM MES pD6.5 250 mM KCl in D2O,Materials
-id433,20 mM MES pD6.5 250 mM KCl, 25 mM Ca2+ in D2O,Materials
-id434,SANS of dialysed octameric RCK samples,Procedures
-id374,Fresh beads for Laser Tweezers experiments,Procedures
-id454,DNA sequence data from Southampton on pLLC064,Data
-id474,Analysis of pLLC064 sequencing data,Procedures
-id766,PCR template,Templates
-id390,Buffer background for octameric rck domain,Materials
-id765,KcsA plasmid from Southampton,Materials
-id757,kcsa-sort-bwd,Materials
-id756,kcsa-sort-fwd,Materials
-id769,Test PCR to insert Sortase sequence within KcsA,Procedures
-id353,First preparation of beads for laser tweezers experiment,Procedures
-id261,Phosphorylation of DNA substrates for laser tweezers experiment,Procedures
-id239,Ethanol precipitation of lambda DNA,Procedures
-id2868,Further lysozyme runs,Procedures
-id3226,UV-Vis of 5mg/mL Lysozyme,Data
-id3229,UV-Vis of 2mg/mL Lysozyme,Data
-id3230,UV-Vis of 20mg/mL GFP,Data
-id3233,UV-Vis of 10mg/mL GFP,Data
-id3236,UV-Vis of 5mg/mL GFP,Data
-id3239,UV-Vis of 2mg/mL GFP,Data
-id3219,UV-Vis of Lysozyme and GFP samples from I22 SAXS,Procedures
-id3220,UV-Vis of 20mg/mL Lysozyme,Data
-id3223,UV-Vis of 10mg/mL Lysozyme,Data
-id2765,Preparation of DMPC vesicles,Procedures
-id2774,Exchange of prBC into bOG,Procedures
-id2778,Lysozyme (~20 mg/mL),Materials
-id2782,GFP (~20 mg/mL),Materials
-id2786,GFP (~10mg/mL),Materials
-id2787,GFP (~5 mg/mL),Materials
-id2788,GFP (~2 mg/mL),Materials
-id2790,Lysozyme (~10 mg/mL),Materials
-id2791,Lysozyme (~5 mg/mL),Materials
-id2792,Lysozyme (~2 mg/mL),Materials
-id2816,Tris-HCl pH 8.0 buffer,Materials
-id2822,SAXS on Tris-HCl pH 8.0 buffer,Data
-id2838,Lysozyme 10 mg/mL with attenutor,Data
-id2834,Lysozyme 5mg/mL with attenuator,Data
-id2835,Lysozyme 2mg/mL with attenuator,Data
-id2833,Buffer with attentuator,Data
-id2832,Lysozyme 20 mg/mL w/o attenutor,Data
-id2831,Lysozyme 5mg/mL w/o attenuator,Data
-id2824,First run on 2 mg/ml Lyzozyme,Data
-id2837,Lysozyme 20 mg/mL with attenutor,Data
-id2858,GFP 2mg/mL,Data
-id2859,second 10 frames of 2 mg/mL GFP,Data
-id2860,GFP 5 mg/mL,Data
-id2872,0.25 mg/mL GluR0 with glutamate,Materials
-id2874,0.5 mg/mL GluR0 with glutamate,Materials
-id2863,GFP 10mg/mL,Data
-id2864,GFP 20mg/mL,Data
-id2825,SAXS on I22 template,Procedures
-id2896,GluR0 buffer,Materials
-id2886,SAXS runs of GluR0,Procedures
-id2900,GluR0 1mg/mL no glutamate,Materials
-id2903,0.5 mg/mL GluR0 no glutamate,Materials
-id2904,0.25 mg/mL GluR0 no glutamate,Materials
-id2881,SAXS of 0.5 mg/mL GluR0 with glutamate,Data
-id2876,GluR0 SAXS 0.25 mg/mL + glu first run,Data
-id2909,SAXS of GLuR0 buffer,Data
-id2912,SAXS of 1 mg/mL GluR0 no glutamate,Data
-id2915,SAXS of GluR0 0.5 mg/mL no glutamate,Data
-id2921,SAXS on GluR) in capillaries,Procedures
-id2920,SAXS of GluR0 0.25 mg/mL no glutamate,Data
-id2926,Tus buffer,Materials
-id2927,Tus unlabelled,Materials
-id2928,Fluorescein labelled Tus,Materials
-id2931,SAXS of unlabelled Tus,Data
-id2932,SAXS of labelled Tus,Data
-id2930,SAXS of Tus buffer,Data
-id2937,SAXS of Tus samples,Procedures
-id2940,JHL sample,Materials
-id2941,JHL buffer,Materials
-id2942,JHL 10mg/mL,Materials
-id2944,JHL RP 5 mg/mL,Materials
-id2945,JHL N 10 mg/mL,Materials
-id2946,JHL N 5 mg/mL,Materials
-id2943,SAXS for JHL,Procedures
-id2948,ATIC - Buffer,Materials
-id2949,ATIC 20 mg/mL,Materials
-id2950,ATIC 10 mg/mL,Materials
-id2951,ATIC 5 mg/mL,Materials
-id2952,ATIC 2 mg/mL,Materials
-id2954,SAX of ATIC buffer,Data
-id2955,SAXS on ATIC 20 mg/mL,Data
-id2958,SAXS on ATIC 2 mg/mL,Data
-id2961,SAXS on ATIC 10 mg/mL,Data
-id2964,SAXS on ATIC 5 mg/mL,Data
-id2967,SAXS on ATIC,Procedures
-id2971,20 mg/mL ATIC with inhibitor,Materials
-id2972,10 mg/mL ATIC with inhibitor,Materials
-id2970,Addition of inhibitor to ATIC solutions,Procedures
-id2974,SAXS on 20 mg/mL ATIC plus inhibitor (2%),Data
-id2975,SAXS on 10 mg/mL ATIC plus inhibitor (2%),Data
-id2982,Second SAXS run on 10 mg/mL with inhibitor,Data
-id2986,5 mg/mL ATIC + 10% inhibitor,Materials
-id2987,10 mg/mL ATIC with 10% inhibitor,Materials
-id2985,Further preparation of samples with inhibitor,Procedures
-id2991,SAXS on 5 mg/mL ATIC with 10% inhibitor,Data
-id2990,SAXS of 10 mg/mL ATIC with 10% inhibitor,Data
-id3000,SAXS of ATIC with inhibitors,Procedures
-id3002,Repeat SAXS of 10 mg/mL ATIC with 10% inhibitor,Data
-id3005,Repeat SAXS of 20 mg/mL ATIC,Data
-id3008,Repeat SAXS of ATIC buffer,Data
-id3010,Continuing SAXS on ATIC with (and without) inhibitor,Procedures
-id7501,test,Note
-id2779,Preparation of lysozyme solutions,Procedures
-id2783,Preparation of GFP solutions for I22 SAXS,Procedures
-id11331,50 mM Hepes pH 7 Buffer in D2O,Materials
-id11335,MurM sample,Materials
-id11337,Dialysed MurM sample in D2O buffer,Materials
-id11336,Dialysis of MurM into new buffer,Procedures
-id11530,Test solution sample,Materials
-id11510,Approaching the design of a dataset consisting of modelled data based on pdb structures,Note
-id11338,Buffer blank dialysate for MurM,Materials
-id2818,SAXS on I22 template,Templates
-id11573,Reprocessed Glur0 buffer background,Data
-id11576,Reprocessed Glur0 buffer background (Right),Data
-id2820,I22 Data template,Templates
-id11580,Reprocessed Glur0 data 1mg/mL (Left),Data
-id11583,Reprocessed Glur0 data 1mg/mL (Right),Data
-id11586,Reprocessing SAXS data from Feb 09,Procedures
-id11587,Glur0 1mg/mL I vs Q (background subtracted and small linear displacement),Data
-id11589,Initial analysis of reprocessed Glur0 Data,Procedures
-id11621,Calculation of Scattering Length Densities for King/Frey Surfactants,Procedures
-id11670,Purified GFP lyophilised,Materials
-id386,SAS sample template,Templates
-id11675,H2O Phosphate buffer,Materials
-id11676,D2O Phosphate buffer,Materials
-id11677,Preparing samples of GFP and Lysozyme for SANS2d experiment,Procedures
-id11679,GFP in D2O Phosphate buffer,Materials
-id11680,Lysozyme sample in H2O phosphate buffer,Materials
-id11681,Lysozyme sample in D2O phosphate buffer,Materials
-id11678,GFP in H2O Phosphate buffer,Materials
-id11682,GFP in 70% D2O Phosphate buffer,Materials
-id11683,Lysozyme sample in 70% D2O phosphate buffer,Materials
-id11854,Luke's PinA data,Data
-id11857,Quick analysis of Lukes PinA data,Procedures
-id11910,GFP SANS Data from SANS2d - 6m D2O,Data
-id11918,Lysozyme in D2O data from SANS2D,Data
-id11921,Comparison of SANS2d and LOQ Lysozyme data,Procedures
-id11913,Comparison of SANS2d and LOQ GFP data,Procedures
-id11928,Some analysis of reflection data from Crisp Experiment,Procedures
-id12130,Glur0 D2O Sample,Materials
-id12132,10mM DM H2O Buffer,Materials
-id12133,D2O Buffer for Glur0,Materials
-id12134,H2O Buffer for Glur0,Materials
-id12135,10mM DM D2O Buffer,Materials
-id12139,3333-First Glur0 D2O reduced data,Data
-id12125,Glur0 D2O Sample,Materials
-id12126,Glur0 H2O Sample,Materials
-id12150,Second set of GLur0 samples,Procedures
-id12155,Comments on Glur0 experiment in progress,Note
-id12156,Glur0 in 22% D2O buffer,Materials
-id12157,22% D2O Buffer,Materials
-id12153,Single run of Glur0 H2O,Procedures
-id12169,Glur0 H2O summed data,Data
-id12165,Glur0 D2O summed data,Data
-id12145,GlurO + glutamate D2O,Materials
-id12266,Transformation of pSOT092 and pLLC146 into BL21(DE3),Procedures
-id12272,GFP Lysis Buffer,Materials
-id12275,GFP Cleared lysate,Materials
-id12277,GFP purification first filtrate,Materials
-id12278,GFP purification second filtrate,Materials
-id12283,GFP-Second resin wash,Materials
-id12281,Ammon-Acetate 20 mM imidazole wash buffer,Materials
-id12280,GFP-First resin wash,Materials
-id12282,Ammonium-acetate 400 mM elution buffer,Materials
-id12286,GFP-Third resin wash,Materials
-id12273,Test purification of GFP,Procedures
-id12298,GFP elution fraction 2,Materials
-id12294,GFP-repurification flow through,Materials
-id12295,GFP-repurification first wash,Materials
-id12297,GFP elution fraction 1,Materials
-id12299,GFP elution fraction 3,Materials
-id12300,GFP elution fraction 4,Materials
-id12301,GFP elution fraction 5,Materials
-id12293,Further purification of GFP fractions,Procedures
-id12304,Sortase cleared lysate,Materials
-id12308,Sortase flow through fraction,Materials
-id12314,Sortase elution fraction 4,Materials
-id12296,fraction,Templates
-id12309,Sortase first wash fraction,Materials
-id12315,Sortase 20 mM imidazole wash fraction,Materials
-id12312,Sortase elution fraction 2,Materials
-id12313,Sortase elution fraction 3,Materials
-id12311,Sortase elution fraction 1,Materials
-id12320,Sortase elution fraction 6,Materials
-id12321,Sortase elution fraction 7,Materials
-id12322,Sortase elution fraction 8,Materials
-id12323,Sortase elution fraction 9,Materials
-id12324,Sortase elution fraction 10,Materials
-id12303,Purification of Sortase,Procedures
-id12319,Sortase elution fraction 5,Materials
-id12328,Sigma Wide Range SDS-PAGE Marker,Materials
-id12327,SDS-Page Gel,Templates
-id12334,GFP purifcation gel2,Procedures
-id12306,Concentration and exchange of GFP,Procedures
-id12357,Frozen Sortase solution,Materials
-id12332,GFP purification Gel,Procedures
-id12329,Sortase purification SDS-Page Gel,Procedures
-id12358,Freeze dried Sortase,Materials
-id12345,Freeze dried GFP,Materials
-id12344,Concentration and exchange of sortase,Procedures
-id12131,SANS2d run template,Templates
-id12137,First Glur0 runs - SANS2d,Procedures
-id13150,Purification of Tus-Ter complex,Procedures
-id13156,Purification of Tus-Ter(14mer) complex, Tus-NS(21mer), Tus-Ter(Ext),Procedures
-id13169,Concentrated sample from Tus-NS(21mer) S75 column,Materials
-id13168,Concentrated sample from Tus-Ter(14mer) S75 column,Materials
-id13249,3339 - reduced SANS data,Data
-id13250,3395 - reduced SANS data,Data
-id13251,3397 - reduced SANS data,Data
-id13252,3393 - reduced SANS data,Data
-id13253,3345 - reduced SANS data,Data
-id13254,SANS Data Reduction,Procedures
-id13323,3361 - reduced SANS data,Data
-id13324,3367 - reduced SANS data,Data
-id13325,3377 - reduced SANS data,Data
-id13326,3386 - reduced SANS data,Data
-id13327,3395 - reduced SANS data,Data
-id13328,SANS Data Reduction,Procedure
-id13332,3362 - reduced SANS data,Data
-id13333,3368 - reduced SANS data,Data
-id13334,3378 - reduced SANS data,Data
-id13335,3383 - reduced SANS data,Data
-id13336,3387 - reduced SANS data,Data
-id13337,3396 - reduced SANS data,Data
-id13338,SANS Data Reduction,Procedure
-id13247,Adding runs from March GLur0 SANS Expt,Procedures
-id13346,3345 - reduced SANS data,Data
-id13347,3393 - reduced SANS data,Data
-id13348,3397 - reduced SANS data,Data
-id13349,3395 - reduced SANS data,Data
-id13350,3339 - reduced SANS data,Data
-id13351,SANS Data Reduction,Procedure
+nodedef> name, label STRING, section VARCHAR, date STRING 
+post75,"Lab SAXS Template",Templates,2008-10-09T11:22:07+01:00
+post81,"GFP solution 5 mg/ml",Materials,2008-10-09T11:32:10+01:00
+post82,"GFP solution 2 mg/ml",Materials,2008-10-09T11:33:25+01:00
+post83,"GFP solution 1 mg/ml",Materials,2008-10-09T12:03:10+01:00
+post79,"Preparation of GFP solutions",Procedures,2008-10-09T11:31:01+01:00
+post86,"Centrifuged 10 mg/mL GFP",Materials,2008-10-09T16:06:36+01:00
+post87,"Centrifuged 2 mg/mL GFP",Materials,2008-10-09T16:08:11+01:00
+post88,"Centrifuged 5 mg/mL GFP",Materials,2008-10-09T16:09:03+01:00
+post110,"SAXS Run 02075",Data,2008-10-09T18:16:04+01:00
+post108,"SAXS Run 02074",Data,2008-10-09T18:14:04+01:00
+post97,"SAXS Run 02073",Data,2008-10-09T16:16:15+01:00
+post96,"SAXS Run 02072",Data,2008-10-09T16:16:04+01:00
+post95,"SAXS Run 02071",Data,2008-10-09T16:15:47+01:00
+post94,"SAXS Run 02070",Data,2008-10-09T16:15:35+01:00
+post93,"SAXS Run 02069",Data,2008-10-09T16:15:23+01:00
+post92,"SAXS Run 02068",Data,2008-10-09T16:15:11+01:00
+post91,"SAXS Run 02067",Data,2008-10-09T16:14:13+01:00
+post123,"GFP SAXS data reduction",Procedures,2008-10-09T19:11:32+01:00
+post85,"Centrifugation of 10 mg/mL GFP solution",Procedures,2008-10-09T16:06:16+01:00
+post131,"GFP (10 mg/mL) in D2O buffer",Materials,2008-10-16T12:15:41+01:00
+post132,"GFP 5 mg/mL in D2O buffer",Materials,2008-10-16T12:51:18+01:00
+post133,"GFP 2 mg/mL in D2O buffer",Materials,2008-10-16T12:51:55+01:00
+post130,"Preparation of GFP Samples for a quickie SANS experiment on LOQ",Procedures,2008-10-16T12:15:05+01:00
+post135,"Lysozyme",Materials,2008-10-16T15:13:20+01:00
+post137,"Lysozyme 10 mg/mL in D2O buffer",Materials,2008-10-16T15:15:44+01:00
+post138,"Lysozyme 2mg/mL",Materials,2008-10-16T15:16:25+01:00
+post136,"Preparation of lysozyme solutions for quickie SANS experiment",Procedures,2008-10-16T15:15:30+01:00
+post141,"20 mM Phosphate buffer in D2O",Materials,2008-10-16T15:52:45+01:00
+post171,"UV-Vis spectroscopy of GFP and Lysozyme samples",Procedures,2008-10-20T11:32:11+01:00
+post90,"LOQ SANS data template",Templates,2008-10-09T16:12:42+01:00
+post174,"44700 - 10mg/mL GFP on LOQ",Data,2008-10-20T11:40:22+01:00
+post178,"44701 - 5mg/mL GFP on LOQ",Data,2008-10-20T12:02:57+01:00
+post182,"44702 - 2mg/mL GFP on LOQ",Data,2008-10-20T12:03:58+01:00
+post186,"44703 - 10mg/mL Lysozyme on LOQ",Data,2008-10-20T12:04:54+01:00
+post190,"44704 - 2mg/mL Lysozyme on LOQ",Data,2008-10-20T12:05:54+01:00
+post195,"Initial analysis of SANS data on GFP",Procedures,2008-10-20T14:06:35+01:00
+post156,"UV-Vis spectrum of 2 mg/mL Lysozyme",Data,2008-10-17T12:18:30+01:00
+post153,"UV-Vis spectrum of 10mg/mL Lysozyme",Data,2008-10-17T12:17:34+01:00
+post150,"UV-Vis spectrum of 2mg/mL GFP",Data,2008-10-17T12:16:37+01:00
+post147,"UV-Vis spectrum of 5mg/mL GFP",Data,2008-10-17T12:14:10+01:00
+post144,"UV-Vis spectrum of 10mg/mL GFP",Data,2008-10-17T12:10:13+01:00
+post142,"SANS on GFP concentration series",Procedures,2008-10-16T15:52:49+01:00
+post109,"SAXS of GFP Samples",Procedures,2008-10-09T18:14:20+01:00
+post210,"oligo template",Templates,2008-10-27T13:09:49+00:00
+post231,"Planning preparation of DNA for Laser Tweezers experiment",Note,2008-10-27T15:01:53+00:00
+post240,"Ethanol precipitated lambda DNA",Materials,2008-10-28T15:35:18+00:00
+post263,"Phosphorylated TerR lam",Materials,2008-11-05T16:02:10+00:00
+post264,"Phosporylated TerR",Materials,2008-11-05T16:02:43+00:00
+post265,"Phosphorylated TerFlam",Materials,2008-11-05T16:03:13+00:00
+post269,"Phosphorylated oligo-lambda-biotin",Materials,2008-11-05T16:05:58+00:00
+post275,"Product of ligation of lambda to lambda-oligo-biotin",Materials,2008-11-05T17:08:20+00:00
+post262,"Phosphorylated lambda DNA",Materials,2008-11-05T16:01:05+00:00
+post273,"Ligation of oligo-biotin-lambda to lambda DNA",Procedures,2008-11-05T17:06:34+00:00
+post266,"Phosphorylated TerF",Materials,2008-11-05T16:03:43+00:00
+post224,"Oligo-lambda-biotin",Materials,2008-10-27T14:14:48+00:00
+post221,"Oligo-TerRlam",Materials,2008-10-27T13:48:01+00:00
+post218,"Oligo-TerR",Materials,2008-10-27T13:46:50+00:00
+post214,"Oligo-TerFlam",Materials,2008-10-27T13:44:58+00:00
+post211,"Oligo-TerF",Materials,2008-10-27T13:41:00+00:00
+post76,"Sortase Buffer",Materials,2008-10-09T11:24:25+01:00
+post78,"GFP solution 10 mg/mL",Materials,2008-10-09T11:30:01+01:00
+post77,"Freeze dried GFP",Materials,2008-10-09T11:26:29+01:00
+post287,"1:100 gly-OH modified silica beads",Materials,2008-11-06T10:22:35+00:00
+post288,"1:1000 gly-OH modified silica beads",Materials,2008-11-06T10:23:26+00:00
+post289,"1:10000 gly-OH modified silica beads",Materials,2008-11-06T10:23:50+00:00
+post290,"1:100000 gly-OH modified silica beads",Materials,2008-11-06T10:24:40+00:00
+post295,"TerF-lambda-biotin construct",Materials,2008-11-06T11:28:21+00:00
+post294,"Ligation of Tus adaptors to biotin-modified lambda",Procedures,2008-11-06T11:14:54+00:00
+post300,"1:100 gly-oh beads after ammonia treatment",Materials,2008-11-06T11:53:11+00:00
+post301,"1:1000 gly-OH beads after ammonia treatment",Materials,2008-11-06T11:53:45+00:00
+post302,"1:10000 gly-OH beads after ammonia treatment",Materials,2008-11-06T11:54:16+00:00
+post303,"1:100,000 gly-OH beads after ammonia treatment",Materials,2008-11-06T11:54:46+00:00
+post291,"Ammonia treatment of gly modified beads",Procedures,2008-11-06T10:27:35+00:00
+post305,"Maria's analysis of the GFP SAXS data",Procedures,2008-11-07T11:23:34+00:00
+post298,"TerR-lambda-biotin construct",Materials,2008-11-06T11:47:08+00:00
+post352,"Bangs Labs streptavidin coated beads",Materials,2008-11-12T14:10:53+00:00
+post375,"Preparing fresh polymer-DNA beads for lasers experiment",Procedures,2008-11-14T10:21:15+00:00
+post379,"Examining silica beads for stickiness to surface",Note,2008-11-14T12:14:20+00:00
+post387,"Octameric rck domain from MthK in D2O buffer",Materials,2008-11-16T11:21:24+00:00
+post140,"SANS on LOQ template",Templates,2008-10-16T15:51:26+01:00
+post394,"SANS on LOQ template",Procedures,2008-11-16T12:38:41+00:00
+post402,"SANS runs on octameric RCK",Procedures,2008-11-16T13:29:40+00:00
+post405,"Additional runs on octameric Rck",Procedures,2008-11-16T15:57:06+00:00
+post409,"Octameric RCK plus Ca",Materials,2008-11-16T17:38:22+00:00
+post410,"Buffer background for octameric RCK plus Ca",Materials,2008-11-16T17:40:07+00:00
+post408,"Addition of Ca++ to octameric mthk sample",Procedures,2008-11-16T17:38:03+00:00
+post417,"Dimeric RCK from gel filtration in pD 6.5 D2O buffer",Materials,2008-11-16T22:29:21+00:00
+post418,"Buffer background for dimeric RCK",Materials,2008-11-16T22:30:01+00:00
+post419,"SANS of dimeric RCK",Procedures,2008-11-16T22:31:38+00:00
+post412,"SANS of octameric RCK plus Ca++",Procedures,2008-11-16T17:58:16+00:00
+post426,"Octameric RCK plus Ca dialysed into pD6.5",Materials,2008-11-17T01:00:49+00:00
+post427,"Octameric RCK plus (no Ca) dialysed into pD 6.5 buffer",Materials,2008-11-17T01:01:31+00:00
+post425,"Dialysis of Octameric RCK samples",Procedures,2008-11-17T01:00:35+00:00
+post432,"20 mM MES pD6.5 250 mM KCl in D2O",Materials,2008-11-17T01:05:19+00:00
+post433,"20 mM MES pD6.5 250 mM KCl, 25 mM Ca2+ in D2O",Materials,2008-11-17T01:05:45+00:00
+post434,"SANS of dialysed octameric RCK samples",Procedures,2008-11-17T01:07:34+00:00
+post374,"Fresh beads for Laser Tweezers experiments",Procedures,2008-11-13T17:52:44+00:00
+post454,"DNA sequence data from Southampton on pLLC064",Data,2008-11-28T11:02:19+00:00
+post474,"Analysis of pLLC064 sequencing data",Procedures,2008-12-01T11:16:32+00:00
+post766,"PCR template",Templates,2008-12-09T10:36:01+00:00
+post390,"Buffer background for octameric rck domain",Materials,2008-11-16T11:23:39+00:00
+post765,"KcsA plasmid from Southampton",Materials,2008-12-09T10:34:18+00:00
+post757,"kcsa-sort-bwd",Materials,2008-12-09T10:24:45+00:00
+post756,"kcsa-sort-fwd",Materials,2008-12-09T10:23:18+00:00
+post769,"Test PCR to insert Sortase sequence within KcsA",Procedures,2008-12-09T10:47:35+00:00
+post353,"First preparation of beads for laser tweezers experiment",Procedures,2008-11-12T14:12:44+00:00
+post261,"Phosphorylation of DNA substrates for laser tweezers experiment",Procedures,2008-11-05T15:59:58+00:00
+post239,"Ethanol precipitation of lambda DNA",Procedures,2008-10-28T15:35:06+00:00
+post2868,"Further lysozyme runs",Procedures,2009-02-02T19:25:10+00:00
+post3226,"UV-Vis of 5mg/mL Lysozyme",Data,2009-02-09T15:33:38+00:00
+post3229,"UV-Vis of 2mg/mL Lysozyme",Data,2009-02-09T15:34:28+00:00
+post3230,"UV-Vis of 20mg/mL GFP",Data,2009-02-09T15:34:55+00:00
+post3233,"UV-Vis of 10mg/mL GFP",Data,2009-02-09T15:35:35+00:00
+post3236,"UV-Vis of 5mg/mL GFP",Data,2009-02-09T15:36:27+00:00
+post3239,"UV-Vis of 2mg/mL GFP",Data,2009-02-09T15:37:09+00:00
+post3219,"UV-Vis of Lysozyme and GFP samples from I22 SAXS",Procedures,2009-02-09T14:45:03+00:00
+post3220,"UV-Vis of 20mg/mL Lysozyme",Data,2009-02-09T15:32:00+00:00
+post3223,"UV-Vis of 10mg/mL Lysozyme",Data,2009-02-09T15:32:51+00:00
+post2765,"Preparation of DMPC vesicles",Procedures,2009-02-01T12:48:21+00:00
+post2774,"Exchange of prBC into bOG",Procedures,2009-02-01T15:00:06+00:00
+post2778,"Lysozyme (~20 mg/mL)",Materials,2009-02-01T16:30:33+00:00
+post2782,"GFP (~20 mg/mL)",Materials,2009-02-01T16:32:27+00:00
+post2786,"GFP (~10mg/mL)",Materials,2009-02-01T16:57:42+00:00
+post2787,"GFP (~5 mg/mL)",Materials,2009-02-01T16:58:14+00:00
+post2788,"GFP (~2 mg/mL)",Materials,2009-02-01T16:58:42+00:00
+post2790,"Lysozyme (~10 mg/mL)",Materials,2009-02-01T17:01:00+00:00
+post2791,"Lysozyme (~5 mg/mL)",Materials,2009-02-01T17:01:26+00:00
+post2792,"Lysozyme (~2 mg/mL)",Materials,2009-02-01T17:01:52+00:00
+post2816,"Tris-HCl pH 8.0 buffer",Materials,2009-02-02T14:16:52+00:00
+post2822,"SAXS on Tris-HCl pH 8.0 buffer",Data,2009-02-02T14:30:45+00:00
+post2838,"Lysozyme 10 mg/mL with attenutor",Data,2009-02-02T17:22:34+00:00
+post2834,"Lysozyme 5mg/mL with attenuator",Data,2009-02-02T16:50:50+00:00
+post2835,"Lysozyme 2mg/mL with attenuator",Data,2009-02-02T16:51:59+00:00
+post2833,"Buffer with attentuator",Data,2009-02-02T16:50:11+00:00
+post2832,"Lysozyme 20 mg/mL w/o attenutor",Data,2009-02-02T16:49:20+00:00
+post2831,"Lysozyme 5mg/mL w/o attenuator",Data,2009-02-02T16:47:48+00:00
+post2824,"First run on 2 mg/ml Lyzozyme",Data,2009-02-02T15:56:56+00:00
+post2837,"Lysozyme 20 mg/mL with attenutor",Data,2009-02-02T17:22:01+00:00
+post2858,"GFP 2mg/mL",Data,2009-02-02T17:44:08+00:00
+post2859,"second 10 frames of 2 mg/mL GFP",Data,2009-02-02T18:30:15+00:00
+post2860,"GFP 5 mg/mL",Data,2009-02-02T18:30:48+00:00
+post2872,"0.25 mg/mL GluR0 with glutamate",Materials,2009-02-02T19:28:39+00:00
+post2874,"0.5 mg/mL GluR0 with glutamate",Materials,2009-02-02T19:29:27+00:00
+post2863,"GFP 10mg/mL",Data,2009-02-02T18:37:12+00:00
+post2864,"GFP 20mg/mL",Data,2009-02-02T18:37:38+00:00
+post2825,"SAXS on I22 template",Procedures,2009-02-02T16:22:56+00:00
+post2896,"GluR0 buffer",Materials,2009-02-02T23:00:41+00:00
+post2886,"SAXS runs of GluR0",Procedures,2009-02-02T22:45:48+00:00
+post2900,"GluR0 1mg/mL no glutamate",Materials,2009-02-02T23:11:51+00:00
+post2903,"0.5 mg/mL GluR0 no glutamate",Materials,2009-02-02T23:12:36+00:00
+post2904,"0.25 mg/mL GluR0 no glutamate",Materials,2009-02-02T23:12:54+00:00
+post2881,"SAXS of 0.5 mg/mL GluR0 with glutamate",Data,2009-02-02T19:51:10+00:00
+post2876,"GluR0 SAXS 0.25 mg/mL + glu first run",Data,2009-02-02T19:34:56+00:00
+post2909,"SAXS of GLuR0 buffer",Data,2009-02-02T23:29:56+00:00
+post2912,"SAXS of 1 mg/mL GluR0 no glutamate",Data,2009-02-02T23:31:15+00:00
+post2915,"SAXS of GluR0 0.5 mg/mL no glutamate",Data,2009-02-02T23:48:42+00:00
+post2921,"SAXS on GluR) in capillaries",Procedures,2009-02-03T00:12:57+00:00
+post2920,"SAXS of GluR0 0.25 mg/mL no glutamate",Data,2009-02-03T00:04:04+00:00
+post2926,"Tus buffer",Materials,2009-02-03T00:24:09+00:00
+post2927,"Tus unlabelled",Materials,2009-02-03T00:24:27+00:00
+post2928,"Fluorescein labelled Tus",Materials,2009-02-03T00:25:04+00:00
+post2931,"SAXS of unlabelled Tus",Data,2009-02-03T00:28:04+00:00
+post2932,"SAXS of labelled Tus",Data,2009-02-03T00:28:28+00:00
+post2930,"SAXS of Tus buffer",Data,2009-02-03T00:27:36+00:00
+post2937,"SAXS of Tus samples",Procedures,2009-02-03T01:12:24+00:00
+post2940,"JHL sample",Materials,2009-02-03T01:14:00+00:00
+post2941,"JHL buffer",Materials,2009-02-03T01:14:28+00:00
+post2942,"JHL 10mg/mL",Materials,2009-02-03T01:50:29+00:00
+post2944,"JHL RP 5 mg/mL",Materials,2009-02-03T02:09:23+00:00
+post2945,"JHL N 10 mg/mL",Materials,2009-02-03T02:15:30+00:00
+post2946,"JHL N 5 mg/mL",Materials,2009-02-03T02:24:55+00:00
+post2943,"SAXS for JHL",Procedures,2009-02-03T01:50:36+00:00
+post2948,"ATIC - Buffer",Materials,2009-02-03T02:43:21+00:00
+post2949,"ATIC 20 mg/mL",Materials,2009-02-03T02:43:46+00:00
+post2950,"ATIC 10 mg/mL",Materials,2009-02-03T02:44:10+00:00
+post2951,"ATIC 5 mg/mL",Materials,2009-02-03T02:44:36+00:00
+post2952,"ATIC 2 mg/mL",Materials,2009-02-03T02:45:01+00:00
+post2954,"SAX of ATIC buffer",Data,2009-02-03T03:13:16+00:00
+post2955,"SAXS on ATIC 20 mg/mL",Data,2009-02-03T03:15:16+00:00
+post2958,"SAXS on ATIC 2 mg/mL",Data,2009-02-03T03:32:23+00:00
+post2961,"SAXS on ATIC 10 mg/mL",Data,2009-02-03T04:05:40+00:00
+post2964,"SAXS on ATIC 5 mg/mL",Data,2009-02-03T04:21:10+00:00
+post2967,"SAXS on ATIC",Procedures,2009-02-03T04:21:49+00:00
+post2971,"20 mg/mL ATIC with inhibitor",Materials,2009-02-03T04:58:30+00:00
+post2972,"10 mg/mL ATIC with inhibitor",Materials,2009-02-03T04:59:29+00:00
+post2970,"Addition of inhibitor to ATIC solutions",Procedures,2009-02-03T04:58:11+00:00
+post2974,"SAXS on 20 mg/mL ATIC plus inhibitor (2%)",Data,2009-02-03T05:21:05+00:00
+post2975,"SAXS on 10 mg/mL ATIC plus inhibitor (2%)",Data,2009-02-03T05:22:04+00:00
+post2982,"Second SAXS run on 10 mg/mL with inhibitor",Data,2009-02-03T06:28:16+00:00
+post2986,"5 mg/mL ATIC + 10% inhibitor",Materials,2009-02-03T06:59:31+00:00
+post2987,"10 mg/mL ATIC with 10% inhibitor",Materials,2009-02-03T07:00:07+00:00
+post2985,"Further preparation of samples with inhibitor",Procedures,2009-02-03T06:59:14+00:00
+post2991,"SAXS on 5 mg/mL ATIC with 10% inhibitor",Data,2009-02-03T07:23:20+00:00
+post2990,"SAXS of 10 mg/mL ATIC with 10% inhibitor",Data,2009-02-03T07:22:17+00:00
+post3000,"SAXS of ATIC with inhibitors",Procedures,2009-02-03T08:21:21+00:00
+post3002,"Repeat SAXS of 10 mg/mL ATIC with 10% inhibitor",Data,2009-02-03T08:39:46+00:00
+post3005,"Repeat SAXS of 20 mg/mL ATIC",Data,2009-02-03T08:54:53+00:00
+post3008,"Repeat SAXS of ATIC buffer",Data,2009-02-03T09:34:33+00:00
+post3010,"Continuing SAXS on ATIC with (and without) inhibitor",Procedures,2009-02-03T10:56:21+00:00
+post7501,"test",Note,2009-03-10T14:20:00+00:00
+post2779,"Preparation of lysozyme solutions",Procedures,2009-02-01T16:30:55+00:00
+post2783,"Preparation of GFP solutions for I22 SAXS",Procedures,2009-02-01T16:32:55+00:00
+post11331,"50 mM Hepes pH 7 Buffer in D2O",Materials,2009-06-18T14:09:40+01:00
+post11335,"MurM sample",Materials,2009-06-18T15:04:22+01:00
+post11337,"Dialysed MurM sample in D2O buffer",Materials,2009-06-18T15:18:44+01:00
+post11336,"Dialysis of MurM into new buffer",Procedures,2009-06-18T15:15:51+01:00
+post11530,"Test solution sample",Materials,2009-07-29T03:00:47+01:00
+post11510,"Approaching the design of a dataset consisting of modelled data based on pdb structures",Note,2009-07-24T14:05:39+01:00
+post11338,"Buffer blank dialysate for MurM",Materials,2009-06-18T15:19:26+01:00
+post2818,"SAXS on I22 template",Templates,2009-02-02T14:19:36+00:00
+post11573,"Reprocessed Glur0 buffer background",Data,2009-08-26T12:48:52+01:00
+post11576,"Reprocessed Glur0 buffer background (Right)",Data,2009-08-26T12:50:44+01:00
+post2820,"I22 Data template",Templates,2009-02-02T14:28:28+00:00
+post11580,"Reprocessed Glur0 data 1mg/mL (Left)",Data,2009-08-26T12:52:22+01:00
+post11583,"Reprocessed Glur0 data 1mg/mL (Right)",Data,2009-08-26T12:53:50+01:00
+post11586,"Reprocessing SAXS data from Feb 09",Procedures,2009-08-26T12:56:23+01:00
+post11587,"Glur0 1mg/mL I vs Q (background subtracted and small linear displacement)",Data,2009-08-26T13:03:07+01:00
+post11589,"Initial analysis of reprocessed Glur0 Data",Procedures,2009-08-26T13:04:27+01:00
+post11621,"Calculation of Scattering Length Densities for King/Frey Surfactants",Procedures,2009-09-10T12:17:36+01:00
+post11670,"Purified GFP lyophilised",Materials,2009-09-25T09:25:56+01:00
+post386,"SAS sample template",Templates,2008-11-16T11:19:06+00:00
+post11675,"H2O Phosphate buffer",Materials,2009-09-25T10:01:50+01:00
+post11676,"D2O Phosphate buffer",Materials,2009-09-25T10:02:19+01:00
+post11677,"Preparing samples of GFP and Lysozyme for SANS2d experiment",Procedures,2009-09-25T10:32:53+01:00
+post11679,"GFP in D2O Phosphate buffer",Materials,2009-09-25T11:35:08+01:00
+post11680,"Lysozyme sample in H2O phosphate buffer",Materials,2009-09-25T11:35:24+01:00
+post11681,"Lysozyme sample in D2O phosphate buffer",Materials,2009-09-25T11:35:38+01:00
+post11678,"GFP in H2O Phosphate buffer",Materials,2009-09-25T11:34:52+01:00
+post11682,"GFP in 70% D2O Phosphate buffer",Materials,2009-09-25T11:35:54+01:00
+post11683,"Lysozyme sample in 70% D2O phosphate buffer",Materials,2009-09-25T11:36:08+01:00
+post11854,"Luke's PinA data",Data,2009-11-23T16:01:19+00:00
+post11857,"Quick analysis of Lukes PinA data",Procedures,2009-11-23T16:10:02+00:00
+post11910,"GFP SANS Data from SANS2d - 6m D2O",Data,2009-12-09T11:16:46+00:00
+post11918,"Lysozyme in D2O data from SANS2D",Data,2009-12-09T11:35:34+00:00
+post11921,"Comparison of SANS2d and LOQ Lysozyme data",Procedures,2009-12-09T11:38:28+00:00
+post11913,"Comparison of SANS2d and LOQ GFP data",Procedures,2009-12-09T11:23:14+00:00
+post11928,"Some analysis of reflection data from Crisp Experiment",Procedures,2009-12-10T11:36:14+00:00
+post12130,"Glur0 D2O Sample",Materials,2010-03-09T19:31:48+00:00
+post12132,"10mM DM H2O Buffer",Materials,2010-03-09T19:51:06+00:00
+post12133,"D2O Buffer for Glur0",Materials,2010-03-09T19:51:07+00:00
+post12134,"H2O Buffer for Glur0",Materials,2010-03-09T19:51:30+00:00
+post12135,"10mM DM D2O Buffer",Materials,2010-03-09T19:52:14+00:00
+post12139,"3333-First Glur0 D2O reduced data",Data,2010-03-09T22:50:38+00:00
+post12125,"Glur0 D2O Sample",Materials,2010-03-09T19:13:11+00:00
+post12126,"Glur0 H2O Sample",Materials,2010-03-09T19:13:35+00:00
+post12150,"Second set of GLur0 samples",Procedures,2010-03-10T10:09:23+00:00
+post12155,"Comments on Glur0 experiment in progress",Note,2010-03-10T10:15:08+00:00
+post12156,"Glur0 in 22% D2O buffer",Materials,2010-03-10T11:18:04+00:00
+post12157,"22% D2O Buffer",Materials,2010-03-10T11:18:31+00:00
+post12153,"Single run of Glur0 H2O",Procedures,2010-03-10T10:12:02+00:00
+post12169,"Glur0 H2O summed data",Data,2010-03-10T18:32:58+00:00
+post12165,"Glur0 D2O summed data",Data,2010-03-10T18:30:21+00:00
+post12145,"GlurO + glutamate D2O",Materials,2010-03-09T23:21:43+00:00
+post12266,"Transformation of pSOT092 and pLLC146 into BL21(DE3)",Procedures,2010-04-09T12:22:22+01:00
+post12272,"GFP Lysis Buffer",Materials,2010-04-14T09:51:35+01:00
+post12275,"GFP Cleared lysate",Materials,2010-04-14T11:56:22+01:00
+post12277,"GFP purification first filtrate",Materials,2010-04-14T12:12:13+01:00
+post12278,"GFP purification second filtrate",Materials,2010-04-14T12:13:17+01:00
+post12283,"GFP-Second resin wash",Materials,2010-04-14T12:32:38+01:00
+post12281,"Ammon-Acetate 20 mM imidazole wash buffer",Materials,2010-04-14T12:29:41+01:00
+post12280,"GFP-First resin wash",Materials,2010-04-14T12:20:06+01:00
+post12282,"Ammonium-acetate 400 mM elution buffer",Materials,2010-04-14T12:30:56+01:00
+post12286,"GFP-Third resin wash",Materials,2010-04-14T12:46:16+01:00
+post12273,"Test purification of GFP",Procedures,2010-04-14T10:15:06+01:00
+post12298,"GFP elution fraction 2",Materials,2010-04-15T12:14:27+01:00
+post12294,"GFP-repurification flow through",Materials,2010-04-15T12:10:25+01:00
+post12295,"GFP-repurification first wash",Materials,2010-04-15T12:11:32+01:00
+post12297,"GFP elution fraction 1",Materials,2010-04-15T12:13:52+01:00
+post12299,"GFP elution fraction 3",Materials,2010-04-15T12:14:31+01:00
+post12300,"GFP elution fraction 4",Materials,2010-04-15T12:14:38+01:00
+post12301,"GFP elution fraction 5",Materials,2010-04-15T12:14:50+01:00
+post12293,"Further purification of GFP fractions",Procedures,2010-04-15T12:10:04+01:00
+post12304,"Sortase cleared lysate",Materials,2010-04-15T12:27:23+01:00
+post12308,"Sortase flow through fraction",Materials,2010-04-15T14:04:40+01:00
+post12314,"Sortase elution fraction 4",Materials,2010-04-15T15:13:53+01:00
+post12296,"fraction",Templates,2010-04-15T12:13:41+01:00
+post12309,"Sortase first wash fraction",Materials,2010-04-15T14:06:13+01:00
+post12315,"Sortase 20 mM imidazole wash fraction",Materials,2010-04-15T15:15:53+01:00
+post12312,"Sortase elution fraction 2",Materials,2010-04-15T15:13:24+01:00
+post12313,"Sortase elution fraction 3",Materials,2010-04-15T15:13:38+01:00
+post12311,"Sortase elution fraction 1",Materials,2010-04-15T15:13:10+01:00
+post12320,"Sortase elution fraction 6",Materials,2010-04-15T16:16:35+01:00
+post12321,"Sortase elution fraction 7",Materials,2010-04-15T16:16:52+01:00
+post12322,"Sortase elution fraction 8",Materials,2010-04-15T16:17:36+01:00
+post12323,"Sortase elution fraction 9",Materials,2010-04-15T16:17:47+01:00
+post12324,"Sortase elution fraction 10",Materials,2010-04-15T16:17:59+01:00
+post12303,"Purification of Sortase",Procedures,2010-04-15T12:27:10+01:00
+post12319,"Sortase elution fraction 5",Materials,2010-04-15T16:16:23+01:00
+post12328,"Sigma Wide Range SDS-PAGE Marker",Materials,2010-04-16T09:18:33+01:00
+post12327,"SDS-Page Gel",Templates,2010-04-16T09:17:38+01:00
+post12334,"GFP purifcation gel2",Procedures,2010-04-16T09:45:39+01:00
+post12306,"Concentration and exchange of GFP",Procedures,2010-04-15T14:01:06+01:00
+post12357,"Frozen Sortase solution",Materials,2010-04-21T09:30:53+01:00
+post12332,"GFP purification Gel",Procedures,2010-04-16T09:42:04+01:00
+post12329,"Sortase purification SDS-Page Gel",Procedures,2010-04-16T09:20:13+01:00
+post12358,"Freeze dried Sortase",Materials,2010-04-21T09:37:13+01:00
+post12345,"Freeze dried GFP",Materials,2010-04-16T14:22:39+01:00
+post12344,"Concentration and exchange of sortase",Procedures,2010-04-16T09:52:40+01:00
+post12131,"SANS2d run template",Templates,2010-03-09T19:49:06+00:00
+post12137,"First Glur0 runs - SANS2d",Procedures,2010-03-09T22:28:27+00:00
+post13150,"Purification of Tus-Ter complex",Procedures,2010-08-12T16:36:54+01:00
+post13156,"Purification of Tus-Ter(14mer) complex, Tus-NS(21mer), Tus-Ter(Ext)",Procedures,2010-08-12T21:48:55+01:00
+post13169,"Concentrated sample from Tus-NS(21mer) S75 column",Materials,2010-08-13T11:12:19+01:00
+post13168,"Concentrated sample from Tus-Ter(14mer) S75 column",Materials,2010-08-13T11:11:18+01:00
+post13249,"3339 - reduced SANS data",Data,2010-09-13T11:51:36+01:00
+post13250,"3395 - reduced SANS data",Data,2010-09-13T11:52:12+01:00
+post13251,"3397 - reduced SANS data",Data,2010-09-13T11:52:50+01:00
+post13252,"3393 - reduced SANS data",Data,2010-09-13T11:53:30+01:00
+post13253,"3345 - reduced SANS data",Data,2010-09-13T11:55:08+01:00
+post13254,"SANS Data Reduction",Procedures,2010-09-13T11:55:08+01:00
+post13323,"3361 - reduced SANS data",Data,2010-09-23T10:40:03+01:00
+post13324,"3367 - reduced SANS data",Data,2010-09-23T10:40:31+01:00
+post13325,"3377 - reduced SANS data",Data,2010-09-23T10:40:58+01:00
+post13326,"3386 - reduced SANS data",Data,2010-09-23T10:41:27+01:00
+post13327,"3395 - reduced SANS data",Data,2010-09-23T10:41:57+01:00
+post13328,"SANS Data Reduction",Procedure,2010-09-23T10:41:58+01:00
+post13332,"3362 - reduced SANS data",Data,2010-09-23T10:55:45+01:00
+post13333,"3368 - reduced SANS data",Data,2010-09-23T10:56:19+01:00
+post13334,"3378 - reduced SANS data",Data,2010-09-23T10:56:51+01:00
+post13335,"3383 - reduced SANS data",Data,2010-09-23T10:57:19+01:00
+post13336,"3387 - reduced SANS data",Data,2010-09-23T10:57:49+01:00
+post13337,"3396 - reduced SANS data",Data,2010-09-23T10:58:18+01:00
+post13338,"SANS Data Reduction",Procedure,2010-09-23T10:58:19+01:00
+post13247,"Adding runs from March GLur0 SANS Expt",Procedures,2010-09-13T09:21:20+01:00
+post13346,"3345 - reduced SANS data",Data,2010-09-23T11:33:25+01:00
+post13347,"3393 - reduced SANS data",Data,2010-09-23T11:34:05+01:00
+post13348,"3397 - reduced SANS data",Data,2010-09-23T11:34:46+01:00
+post13349,"3395 - reduced SANS data",Data,2010-09-23T11:35:36+01:00
+post13350,"3339 - reduced SANS data",Data,2010-09-23T11:36:16+01:00
+post13351,"SANS Data Reduction",Procedure,2010-09-23T11:36:17+01:00
+data2,dataobject,DataObject
+data4,dataobject,DataObject
+data6,dataobject,DataObject
+data8,dataobject,DataObject
+data10,dataobject,DataObject
+data32,dataobject,DataObject
+data34,dataobject,DataObject
+data36,dataobject,DataObject
+data38,dataobject,DataObject
+data40,dataobject,DataObject
+data42,dataobject,DataObject
+data44,dataobject,DataObject
+data46,dataobject,DataObject
+data48,dataobject,DataObject
+data50,dataobject,DataObject
+data52,dataobject,DataObject
+data20,dataobject,DataObject
+data22,dataobject,DataObject
+data54,dataobject,DataObject
+data18,dataobject,DataObject
+data24,dataobject,DataObject
+data56,dataobject,DataObject
+data16,dataobject,DataObject
+data26,dataobject,DataObject
+data58,dataobject,DataObject
+data14,dataobject,DataObject
+data28,dataobject,DataObject
+data60,dataobject,DataObject
+data12,dataobject,DataObject
+data30,dataobject,DataObject
+data62,dataobject,DataObject
 id228,external,unknown
 id272,external,unknown
+data72,dataobject,DataObject
+data70,dataobject,DataObject
+data68,dataobject,DataObject
+data66,dataobject,DataObject
+data64,dataobject,DataObject
 id271,external,unknown
+data76,dataobject,DataObject
+data82,dataobject,DataObject
+data84,dataobject,DataObject
+data86,dataobject,DataObject
+data88,dataobject,DataObject
+data90,dataobject,DataObject
+data92,dataobject,DataObject
 id445,external,unknown
 id444,external,unknown
+data116,dataobject,DataObject
+data118,dataobject,DataObject
+data120,dataobject,DataObject
+data122,dataobject,DataObject
+data124,dataobject,DataObject
 id259,external,unknown
 id260,external,unknown
-id228,external,unknown
-id228,external,unknown
+data382,dataobject,DataObject
+data384,dataobject,DataObject
+data386,dataobject,DataObject
+data388,dataobject,DataObject
+data390,dataobject,DataObject
+data378,dataobject,DataObject
+data380,dataobject,DataObject
 id2767,external,unknown
-id2767,external,unknown
-id2767,external,unknown
+data314,dataobject,DataObject
+data318,dataobject,DataObject
+data316,dataobject,DataObject
+data320,dataobject,DataObject
+data322,dataobject,DataObject
+data324,dataobject,DataObject
+data326,dataobject,DataObject
+data328,dataobject,DataObject
+data330,dataobject,DataObject
+data332,dataobject,DataObject
+data334,dataobject,DataObject
+data336,dataobject,DataObject
+data338,dataobject,DataObject
+data340,dataobject,DataObject
+data342,dataobject,DataObject
+data344,dataobject,DataObject
+data346,dataobject,DataObject
+data348,dataobject,DataObject
+data350,dataobject,DataObject
+data352,dataobject,DataObject
+data354,dataobject,DataObject
+data356,dataobject,DataObject
+data358,dataobject,DataObject
+data360,dataobject,DataObject
+data362,dataobject,DataObject
+data364,dataobject,DataObject
+data366,dataobject,DataObject
+data368,dataobject,DataObject
+data370,dataobject,DataObject
+data372,dataobject,DataObject
 id2777,external,unknown
 id650,external,unknown
 id683,external,unknown
 id11330,external,unknown
+data1171,dataobject,DataObject
+data1326,dataobject,DataObject
+data1328,dataobject,DataObject
+data1330,dataobject,DataObject
+data1332,dataobject,DataObject
+data1334,dataobject,DataObject
 id4723,external,unknown
-id2777,external,unknown
-id2777,external,unknown
+data1336,dataobject,DataObject
+data1338,dataobject,DataObject
+data1340,dataobject,DataObject
+data1342,dataobject,DataObject
+data1529,dataobject,DataObject
+data1531,dataobject,DataObject
+data1533,dataobject,DataObject
+data1537,dataobject,DataObject
+data1567,dataobject,DataObject
+data1573,dataobject,DataObject
+data1577,dataobject,DataObject
+data1581,dataobject,DataObject
+data1569,dataobject,DataObject
+data1571,dataobject,DataObject
+data1584,dataobject,DataObject
+data1586,dataobject,DataObject
+data1588,dataobject,DataObject
+data1590,dataobject,DataObject
 id12088,external,unknown
-id12088,external,unknown
+data1703,dataobject,DataObject
+data1705,dataobject,DataObject
+data1701,dataobject,DataObject
+data1710,dataobject,DataObject
+data1712,dataobject,DataObject
+data1720,dataobject,DataObject
+data1722,dataobject,DataObject
+data1716,dataobject,DataObject
+data1718,dataobject,DataObject
+data1724,dataobject,DataObject
+data1767,dataobject,DataObject
+data1765,dataobject,DataObject
+data1707,dataobject,DataObject
+data2121,dataobject,DataObject
+data2123,dataobject,DataObject
+data2126,dataobject,DataObject
+data2128,dataobject,DataObject
+data2130,dataobject,DataObject
+data2132,dataobject,DataObject
+data2171,dataobject,DataObject
+data2173,dataobject,DataObject
+data2175,dataobject,DataObject
+data2177,dataobject,DataObject
+data2179,dataobject,DataObject
+data2199,dataobject,DataObject
+data2201,dataobject,DataObject
+data2203,dataobject,DataObject
+data2205,dataobject,DataObject
+data2207,dataobject,DataObject
+data2209,dataobject,DataObject
+data2211,dataobject,DataObject
+data2213,dataobject,DataObject
+data2215,dataobject,DataObject
+data2217,dataobject,DataObject
+data2219,dataobject,DataObject
+data2221,dataobject,DataObject
+data2223,dataobject,DataObject
+data2233,dataobject,DataObject
+data2235,dataobject,DataObject
+data2237,dataobject,DataObject
+data2239,dataobject,DataObject
+data2241,dataobject,DataObject
+data2243,dataobject,DataObject
 edgedef>node1,node2
-id81,id76
-id81,id79
-id82,id79
-id83,id79
-id79,id77
-id79,id76
-id79,id78
-id79,id76
-id79,id81
-id79,id82
-id79,id83
-id86,id85
-id87,id85
-id88,id85
-id123,id109
-id123,id91
-id123,id91
-id123,id110
-id123,id95
-id123,id108
-id123,id81
-id123,id94
-id85,id86
-id85,id88
-id85,id87
-id131,id130
-id132,id130
-id130,id77
-id130,id131
-id130,id132
-id130,id133
-id137,id136
-id138,id136
-id136,id135
-id136,id137
-id136,id138
-id171,id131
-id171,id144
-id171,id132
-id171,id147
-id171,id133
-id171,id150
-id171,id137
-id171,id153
-id171,id138
-id171,id156
-id195,id174
-id195,id178
-id195,id186
-id195,id182
-id195,id190
-id142,id141
-id142,id131
-id142,id174
-id142,id132
-id142,id178
-id142,id133
-id142,id182
-id142,id137
-id142,id186
-id142,id138
-id142,id190
-id109,id76
-id109,id91
-id109,id81
-id109,id92
-id109,id81
-id109,id93
-id109,id81
-id109,id94
-id109,id83
-id109,id95
-id109,id86
-id109,id96
-id109,id88
-id109,id97
-id109,id87
-id109,id108
-id109,id76
-id109,id110
-id231,id228
-id231,id224
-id231,id221
-id231,id218
-id231,id214
-id231,id211
-id240,id239
-id263,id261
-id264,id261
-id265,id261
-id269,id261
-id275,id273
-id262,id261
-id273,id262
-id273,id269
-id273,id272
-id273,id275
-id266,id261
-id78,id79
-id295,id294
-id294,id275
-id294,id271
-id294,id275
-id294,id266
-id294,id265
-id294,id295
-id294,id264
-id294,id263
-id294,id298
-id300,id291
-id301,id291
-id302,id291
-id303,id291
-id291,id287
-id291,id288
-id291,id289
-id291,id290
-id305,id123
-id298,id294
-id375,id352
-id375,id298
-id375,id352
-id375,id298
-id375,id224
-id379,id298
-id379,id224
-id379,id298
-id402,id387
-id402,id390
-id402,id387
-id402,id390
-id405,id387
-id405,id390
-id409,id408
-id410,id408
-id408,id387
-id408,id390
-id408,id409
-id408,id410
-id419,id417
-id419,id418
-id419,id417
-id419,id418
-id412,id409
-id412,id410
-id412,id409
-id412,id410
-id412,id409
-id412,id410
-id426,id425
-id425,id387
-id425,id409
-id425,id427
-id425,id426
-id434,id427
-id434,id432
-id434,id426
-id434,id433
-id434,id427
-id434,id432
-id434,id426
-id434,id433
-id434,id427
-id434,id432
-id434,id426
-id434,id433
-id374,id300
-id374,id300
-id374,id301
-id374,id445
-id374,id302
-id374,id444
-id374,id303
-id769,id765
-id769,id756
-id769,id757
-id769,id765
-id769,id756
-id769,id757
-id353,id300
-id353,id263
-id353,id352
-id261,id259
-id261,id260
-id261,id240
-id261,id262
-id261,id224
-id261,id269
-id261,id221
-id261,id263
-id261,id218
-id261,id264
-id261,id214
-id261,id265
-id261,id211
-id261,id266
-id239,id228
-id239,id228
-id239,id240
-id2868,id2790
-id2868,id2838
-id2868,id2778
-id2868,id2837
-id2868,id2788
-id2868,id2858
-id2868,id2788
-id2868,id2859
-id2868,id2787
-id2868,id2860
-id2868,id2786
-id2868,id2863
-id2868,id2782
-id2868,id2864
-id3226,id3219
-id3229,id3219
-id3230,id3219
-id3233,id3219
-id3236,id3219
-id3239,id3219
-id3219,id2778
-id3219,id3220
-id3219,id2790
-id3219,id3223
-id3219,id2791
-id3219,id3226
-id3219,id2792
-id3219,id3229
-id3219,id2782
-id3219,id3230
-id3219,id2786
-id3219,id3233
-id3219,id2787
-id3219,id3236
-id3219,id2788
-id3219,id3239
-id3220,id3219
-id3223,id3219
-id2774,id2767
-id2774,id2767
-id2774,id2767
-id2778,id2779
-id2782,id2783
-id2786,id2783
-id2787,id2783
-id2788,id2783
-id2790,id2779
-id2791,id2779
-id2792,id2779
-id2825,id2816
-id2825,id2822
-id2825,id2792
-id2825,id2824
-id2825,id2791
-id2825,id2778
-id2825,id2816
-id2825,id2816
-id2825,id2833
-id2825,id2792
-id2825,id2835
-id2825,id2791
-id2825,id2834
-id2886,id2872
-id2886,id2876
-id2886,id2874
-id2886,id2881
-id2921,id2896
-id2921,id2909
-id2921,id2900
-id2921,id2912
-id2921,id2903
-id2921,id2915
-id2921,id2904
-id2921,id2920
-id2937,id2926
-id2937,id2930
-id2937,id2926
-id2937,id2931
-id2937,id2927
-id2937,id2932
-id2943,id2940
-id2943,id2941
-id2943,id2942
-id2943,id2944
-id2943,id2945
-id2943,id2946
-id2967,id2948
-id2967,id2954
-id2967,id2949
-id2967,id2955
-id2967,id2952
-id2967,id2958
-id2967,id2950
-id2967,id2961
-id2967,id2951
-id2967,id2964
-id2971,id2970
-id2972,id2970
-id2970,id2949
-id2970,id2971
-id2970,id2950
-id2970,id2972
-id2986,id2985
-id2987,id2985
-id2985,id2949
-id2985,id2986
-id2985,id2950
-id2985,id2987
-id3000,id2971
-id3000,id2974
-id3000,id2972
-id3000,id2975
-id3000,id2972
-id3000,id2982
-id3010,id2987
-id3010,id2990
-id3010,id2986
-id3010,id2991
-id3010,id2987
-id3010,id3002
-id3010,id2949
-id3010,id3005
-id3010,id2948
-id3010,id3008
-id2779,id2777
-id2779,id2778
-id2779,id2778
-id2779,id2790
-id2779,id2778
-id2779,id2791
-id2779,id2778
-id2779,id2792
-id2783,id2782
-id2783,id2786
-id2783,id2786
-id2783,id2782
-id2783,id2787
-id2783,id2782
-id2783,id2788
-id11331,id650
-id11331,id683
-id11331,id11330
-id11337,id11336
-id11336,id11335
-id11336,id11331
-id11336,id11337
-id11336,id11338
-id11338,id11336
-id11586,id2909
-id11586,id11573
-id11586,id11576
-id11586,id2912
-id11586,id11580
-id11586,id11583
-id11587,id11589
-id11589,id11573
-id11589,id11576
-id11589,id11580
-id11589,id11583
-id11589,id11587
-id11589,id4723
-id11677,id2777
-id11677,id2777
-id11677,id11670
-id11677,id11670
-id11677,id11680
-id11677,id11681
-id11677,id11678
-id11677,id11679
-id11677,id11683
-id11677,id11682
-id11679,id11677
-id11680,id11677
-id11681,id11677
-id11678,id11677
-id11682,id11677
-id11683,id11677
-id11857,id11854
-id11921,id11918
-id11921,id186
-id11913,id11910
-id11913,id131
-id12130,id12088
-id12126,id12088
-id12150,id12145
-id12150,id12134
-id12150,id12133
-id12150,id12145
-id12150,id12125
-id12150,id12126
-id12150,id12134
-id12150,id12133
-id12150,id12145
-id12153,id12126
-id12275,id12273
-id12277,id12273
-id12278,id12273
-id12283,id12281
-id12280,id12273
-id12280,id12272
-id12286,id12273
-id12286,id12282
-id12273,id12272
-id12273,id12275
-id12273,id12277
-id12273,id12278
-id12273,id12272
-id12273,id12280
-id12273,id12281
-id12273,id12283
-id12273,id12282
-id12273,id12286
-id12298,id12293
-id12294,id12293
-id12295,id12293
-id12297,id12293
-id12299,id12293
-id12300,id12293
-id12301,id12293
-id12293,id12283
-id12293,id12294
-id12293,id12295
-id12293,id12297
-id12293,id12298
-id12293,id12299
-id12293,id12300
-id12293,id12301
-id12304,id12303
-id12308,id12303
-id12314,id12303
-id12296,id12303
-id12309,id12303
-id12315,id12303
-id12312,id12303
-id12313,id12303
-id12311,id12303
-id12320,id12303
-id12321,id12303
-id12322,id12303
-id12323,id12303
-id12324,id12303
-id12303,id12272
-id12303,id12304
-id12303,id12308
-id12303,id12309
-id12303,id12315
-id12303,id12311
-id12303,id12312
-id12303,id12313
-id12303,id12314
-id12303,id12319
-id12303,id12320
-id12303,id12321
-id12303,id12322
-id12303,id12323
-id12303,id12324
-id12319,id12303
-id12334,id12328
-id12334,id12283
-id12334,id12283
-id12334,id12297
-id12334,id12298
-id12334,id12299
-id12334,id12300
-id12306,id12334
-id12306,id12297
-id12306,id12298
-id12306,id12299
-id12306,id12300
-id12306,id12301
-id12306,id12286
-id12306,id12345
-id12357,id12344
-id12332,id12328
-id12332,id12275
-id12332,id12277
-id12332,id12278
-id12332,id12280
-id12332,id12280
-id12329,id12328
-id12329,id12308
-id12329,id12309
-id12329,id12315
-id12329,id12311
-id12329,id12312
-id12329,id12313
-id12329,id12314
-id12329,id12320
-id12329,id12322
-id12358,id12344
-id12345,id12306
-id12344,id12329
-id12344,id12308
-id12344,id12315
-id12344,id12311
-id12344,id12312
-id12344,id12313
-id12344,id12314
-id12344,id12357
-id12344,id12358
-id12137,id12133
-id12137,id12125
-id12137,id12126
-id12137,id12134
-id12137,id12133
-id12137,id12125
-id12137,id12126
-id13169,id13156
-id13168,id13156
-id13254,id13249
-id13254,id13250
-id13254,id13251
-id13254,id13252
-id13254,id13253
-id13328,id13323
-id13328,id13324
-id13328,id13325
-id13328,id13326
-id13328,id13327
-id13338,id13332
-id13338,id13333
-id13338,id13334
-id13338,id13335
-id13338,id13336
-id13338,id13337
-id13247,id12126
-id13247,id12156
-id13247,id12125
-id13247,id12132
-id13247,id12135
-id13351,id13346
-id13351,id13347
-id13351,id13348
-id13351,id13349
-id13351,id13350
+post81,post76
+post81,post79
+post82,post79
+post83,post79
+post79,post77
+post79,post76
+post79,post78
+post79,post76
+post79,post81
+post79,post82
+post79,post83
+post86,post85
+post87,post85
+post88,post85
+post96,data2
+post95,data4
+post94,data6
+post92,data8
+post91,data10
+post123,post109
+post123,post91
+post123,post91
+post123,post110
+post123,post95
+post123,post108
+post123,post81
+post123,post94
+post85,post86
+post85,post88
+post85,post87
+post131,post130
+post132,post130
+post130,post77
+post130,post131
+post130,post132
+post130,post133
+post137,post136
+post138,post136
+post136,post135
+post136,post137
+post136,post138
+post171,post131
+post171,post144
+post171,post132
+post171,post147
+post171,post133
+post171,post150
+post171,post137
+post171,post153
+post171,post138
+post171,post156
+post174,data32
+post174,data34
+post178,data36
+post178,data38
+post182,data40
+post182,data42
+post186,data44
+post186,data46
+post190,data48
+post190,data50
+post195,post174
+post195,post178
+post195,post186
+post195,post182
+post195,post190
+post195,data52
+post156,data20
+post156,data22
+post156,data54
+post153,data18
+post153,data24
+post153,data56
+post150,data16
+post150,data26
+post150,data58
+post147,data14
+post147,data28
+post147,data60
+post144,data12
+post144,data30
+post144,data62
+post142,post141
+post142,post131
+post142,post174
+post142,post132
+post142,post178
+post142,post133
+post142,post182
+post142,post137
+post142,post186
+post142,post138
+post142,post190
+post109,post76
+post109,post91
+post109,post81
+post109,post92
+post109,post81
+post109,post93
+post109,post81
+post109,post94
+post109,post83
+post109,post95
+post109,post86
+post109,post96
+post109,post88
+post109,post97
+post109,post87
+post109,post108
+post109,post76
+post109,post110
+post231,post228
+post231,post224
+post231,post221
+post231,post218
+post231,post214
+post231,post211
+post240,post239
+post263,post261
+post264,post261
+post265,post261
+post269,post261
+post275,post273
+post262,post261
+post273,post262
+post273,post269
+post273,post272
+post273,post275
+post266,post261
+post224,data72
+post221,data70
+post218,data68
+post214,data66
+post211,data64
+post78,post79
+post295,post294
+post294,post275
+post294,post271
+post294,post275
+post294,post266
+post294,post265
+post294,post295
+post294,post264
+post294,post263
+post294,post298
+post300,post291
+post301,post291
+post302,post291
+post303,post291
+post291,post287
+post291,post288
+post291,post289
+post291,post290
+post305,post123
+post305,data76
+post298,post294
+post375,post352
+post375,post298
+post375,post352
+post375,post298
+post375,post224
+post379,post298
+post379,post224
+post379,post298
+post394,data82
+post402,post387
+post402,post390
+post402,post387
+post402,post390
+post402,data84
+post405,post387
+post405,post390
+post405,data86
+post409,post408
+post410,post408
+post408,post387
+post408,post390
+post408,post409
+post408,post410
+post419,post417
+post419,post418
+post419,post417
+post419,post418
+post412,post409
+post412,post410
+post412,post409
+post412,post410
+post412,post409
+post412,post410
+post412,data88
+post412,data90
+post426,post425
+post425,post387
+post425,post409
+post425,post427
+post425,post426
+post434,post427
+post434,post432
+post434,post426
+post434,post433
+post434,post427
+post434,post432
+post434,post426
+post434,post433
+post434,post427
+post434,post432
+post434,post426
+post434,post433
+post434,data92
+post374,post300
+post374,post300
+post374,post301
+post374,post445
+post374,post302
+post374,post444
+post374,post303
+post757,data116
+post757,data118
+post756,data120
+post756,data122
+post769,post765
+post769,post756
+post769,post757
+post769,post765
+post769,post756
+post769,post757
+post769,data124
+post353,post300
+post353,post263
+post353,post352
+post261,post259
+post261,post260
+post261,post240
+post261,post262
+post261,post224
+post261,post269
+post261,post221
+post261,post263
+post261,post218
+post261,post264
+post261,post214
+post261,post265
+post261,post211
+post261,post266
+post239,post228
+post239,post228
+post239,post240
+post2868,post2790
+post2868,post2838
+post2868,post2778
+post2868,post2837
+post2868,post2788
+post2868,post2858
+post2868,post2788
+post2868,post2859
+post2868,post2787
+post2868,post2860
+post2868,post2786
+post2868,post2863
+post2868,post2782
+post2868,post2864
+post3226,post3219
+post3226,data382
+post3229,post3219
+post3230,post3219
+post3230,data384
+post3233,post3219
+post3233,data386
+post3236,post3219
+post3236,data388
+post3239,post3219
+post3239,data390
+post3219,post2778
+post3219,post3220
+post3219,post2790
+post3219,post3223
+post3219,post2791
+post3219,post3226
+post3219,post2792
+post3219,post3229
+post3219,post2782
+post3219,post3230
+post3219,post2786
+post3219,post3233
+post3219,post2787
+post3219,post3236
+post3219,post2788
+post3219,post3239
+post3220,post3219
+post3220,data378
+post3223,post3219
+post3223,data380
+post2774,post2767
+post2774,post2767
+post2774,post2767
+post2778,post2779
+post2782,post2783
+post2786,post2783
+post2787,post2783
+post2788,post2783
+post2790,post2779
+post2791,post2779
+post2792,post2779
+post2838,data314
+post2834,data318
+post2835,data316
+post2833,data320
+post2832,data322
+post2831,data324
+post2824,data326
+post2837,data328
+post2859,data330
+post2860,data332
+post2863,data334
+post2864,data336
+post2825,post2816
+post2825,post2822
+post2825,post2792
+post2825,post2824
+post2825,post2791
+post2825,post2778
+post2825,post2816
+post2825,post2816
+post2825,post2833
+post2825,post2792
+post2825,post2835
+post2825,post2791
+post2825,post2834
+post2886,post2872
+post2886,post2876
+post2886,post2874
+post2886,post2881
+post2881,data338
+post2876,data340
+post2909,data342
+post2912,data344
+post2915,data346
+post2921,post2896
+post2921,post2909
+post2921,post2900
+post2921,post2912
+post2921,post2903
+post2921,post2915
+post2921,post2904
+post2921,post2920
+post2920,data348
+post2930,data350
+post2930,data352
+post2937,post2926
+post2937,post2930
+post2937,post2926
+post2937,post2931
+post2937,post2927
+post2937,post2932
+post2943,post2940
+post2943,post2941
+post2943,post2942
+post2943,post2944
+post2943,post2945
+post2943,post2946
+post2955,data354
+post2958,data356
+post2961,data358
+post2964,data360
+post2967,post2948
+post2967,post2954
+post2967,post2949
+post2967,post2955
+post2967,post2952
+post2967,post2958
+post2967,post2950
+post2967,post2961
+post2967,post2951
+post2967,post2964
+post2971,post2970
+post2972,post2970
+post2970,post2949
+post2970,post2971
+post2970,post2950
+post2970,post2972
+post2974,data362
+post2975,data364
+post2982,data366
+post2986,post2985
+post2987,post2985
+post2985,post2949
+post2985,post2986
+post2985,post2950
+post2985,post2987
+post2991,data368
+post3000,post2971
+post3000,post2974
+post3000,post2972
+post3000,post2975
+post3000,post2972
+post3000,post2982
+post3002,data370
+post3005,data372
+post3010,post2987
+post3010,post2990
+post3010,post2986
+post3010,post2991
+post3010,post2987
+post3010,post3002
+post3010,post2949
+post3010,post3005
+post3010,post2948
+post3010,post3008
+post2779,post2777
+post2779,post2778
+post2779,post2778
+post2779,post2790
+post2779,post2778
+post2779,post2791
+post2779,post2778
+post2779,post2792
+post2783,post2782
+post2783,post2786
+post2783,post2786
+post2783,post2782
+post2783,post2787
+post2783,post2782
+post2783,post2788
+post11331,post650
+post11331,post683
+post11331,post11330
+post11337,post11336
+post11336,post11335
+post11336,post11331
+post11336,post11337
+post11336,post11338
+post11336,data1171
+post11338,post11336
+post11573,data1326
+post11576,data1328
+post11580,data1330
+post11583,data1332
+post11586,post2909
+post11586,post11573
+post11586,post11576
+post11586,post2912
+post11586,post11580
+post11586,post11583
+post11587,post11589
+post11587,data1334
+post11589,post11573
+post11589,post11576
+post11589,post11580
+post11589,post11583
+post11589,post11587
+post11589,post4723
+post11589,data1336
+post11589,data1338
+post11589,data1340
+post11589,data1342
+post11677,post2777
+post11677,post2777
+post11677,post11670
+post11677,post11670
+post11677,post11680
+post11677,post11681
+post11677,post11678
+post11677,post11679
+post11677,post11683
+post11677,post11682
+post11679,post11677
+post11680,post11677
+post11681,post11677
+post11678,post11677
+post11682,post11677
+post11683,post11677
+post11854,data1529
+post11857,post11854
+post11857,data1531
+post11857,data1533
+post11857,data1537
+post11910,data1567
+post11918,data1573
+post11921,post11918
+post11921,post186
+post11921,data1577
+post11921,data1581
+post11913,post11910
+post11913,post131
+post11913,data1569
+post11913,data1571
+post11928,data1584
+post11928,data1586
+post11928,data1588
+post11928,data1590
+post12130,post12088
+post12139,data1703
+post12139,data1705
+post12126,post12088
+post12126,data1701
+post12150,post12145
+post12150,post12134
+post12150,post12133
+post12150,post12145
+post12150,post12125
+post12150,post12126
+post12150,post12134
+post12150,post12133
+post12150,post12145
+post12150,data1710
+post12153,post12126
+post12153,data1712
+post12169,data1720
+post12169,data1722
+post12165,data1716
+post12165,data1718
+post12145,data1724
+post12275,post12273
+post12277,post12273
+post12278,post12273
+post12283,post12281
+post12280,post12273
+post12280,post12272
+post12286,post12273
+post12286,post12282
+post12273,post12272
+post12273,post12275
+post12273,post12277
+post12273,post12278
+post12273,post12272
+post12273,post12280
+post12273,post12281
+post12273,post12283
+post12273,post12282
+post12273,post12286
+post12298,post12293
+post12294,post12293
+post12295,post12293
+post12297,post12293
+post12299,post12293
+post12300,post12293
+post12301,post12293
+post12293,post12283
+post12293,post12294
+post12293,post12295
+post12293,post12297
+post12293,post12298
+post12293,post12299
+post12293,post12300
+post12293,post12301
+post12304,post12303
+post12308,post12303
+post12314,post12303
+post12296,post12303
+post12309,post12303
+post12315,post12303
+post12312,post12303
+post12313,post12303
+post12311,post12303
+post12320,post12303
+post12321,post12303
+post12322,post12303
+post12323,post12303
+post12324,post12303
+post12303,post12272
+post12303,post12304
+post12303,post12308
+post12303,post12309
+post12303,post12315
+post12303,post12311
+post12303,post12312
+post12303,post12313
+post12303,post12314
+post12303,post12319
+post12303,post12320
+post12303,post12321
+post12303,post12322
+post12303,post12323
+post12303,post12324
+post12319,post12303
+post12334,post12328
+post12334,post12283
+post12334,post12283
+post12334,post12297
+post12334,post12298
+post12334,post12299
+post12334,post12300
+post12334,data1767
+post12306,post12334
+post12306,post12297
+post12306,post12298
+post12306,post12299
+post12306,post12300
+post12306,post12301
+post12306,post12286
+post12306,post12345
+post12357,post12344
+post12332,post12328
+post12332,post12275
+post12332,post12277
+post12332,post12278
+post12332,post12280
+post12332,post12280
+post12329,post12328
+post12329,post12308
+post12329,post12309
+post12329,post12315
+post12329,post12311
+post12329,post12312
+post12329,post12313
+post12329,post12314
+post12329,post12320
+post12329,post12322
+post12329,data1765
+post12358,post12344
+post12345,post12306
+post12344,post12329
+post12344,post12308
+post12344,post12315
+post12344,post12311
+post12344,post12312
+post12344,post12313
+post12344,post12314
+post12344,post12357
+post12344,post12358
+post12137,post12133
+post12137,post12125
+post12137,post12126
+post12137,post12134
+post12137,post12133
+post12137,post12125
+post12137,post12126
+post12137,data1707
+post13150,data2121
+post13150,data2123
+post13156,data2126
+post13156,data2128
+post13156,data2130
+post13156,data2132
+post13169,post13156
+post13168,post13156
+post13249,data2171
+post13250,data2173
+post13251,data2175
+post13252,data2177
+post13253,data2179
+post13254,post13249
+post13254,post13250
+post13254,post13251
+post13254,post13252
+post13254,post13253
+post13323,data2199
+post13324,data2201
+post13325,data2203
+post13326,data2205
+post13327,data2207
+post13328,post13323
+post13328,post13324
+post13328,post13325
+post13328,post13326
+post13328,post13327
+post13328,data2209
+post13332,data2211
+post13333,data2213
+post13334,data2215
+post13335,data2217
+post13336,data2219
+post13337,data2221
+post13338,post13332
+post13338,post13333
+post13338,post13334
+post13338,post13335
+post13338,post13336
+post13338,post13337
+post13338,data2223
+post13247,post12126
+post13247,post12156
+post13247,post12125
+post13247,post12132
+post13247,post12135
+post13346,data2233
+post13347,data2235
+post13348,data2237
+post13349,data2239
+post13350,data2241
+post13351,post13346
+post13351,post13347
+post13351,post13348
+post13351,post13349
+post13351,post13350
+post13351,data2243
